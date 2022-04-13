@@ -56,12 +56,6 @@
 
 
 @media only screen and (max-width:1024px) {
-    /*body {
-        color :#FFFFFF;
-        background-color: #000000;
-        font-size: 10px;
-    }*/
-
     #grilla {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -70,13 +64,7 @@
 }
 
 @media only screen and (max-width:768px) {
-    /*body {
-        color :#FFFFFF;
-        background-color: #000000;
-        font-size: 10px;
-    }*/
-
-    #grilla {
+     #grilla {
         grid-template-columns: repeat(2, 1fr);
       }
 
@@ -100,9 +88,11 @@
     background-color: rgb(155, 150, 151);
 }
 
+flex-container {
+    display: flex;
+    justify-content: flex-end;
 
-
-
+}
 
 
 
